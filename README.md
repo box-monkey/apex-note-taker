@@ -40,4 +40,4 @@ Project to dynamically create, display and delete notes sent to and from databas
 
 #
 
-![Team Generation Image](./notetaker.png)
+![Notetaker Image](./images/notetaker.png)
