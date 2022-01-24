@@ -1,9 +1,23 @@
 {
-    "notesDataBase" : [
-        {
-            "title":"Test Title",
-            "text":"Test text"
-        }
-    ]
-    
+  "notesDataBase": [
+    {
+      "title": "Test Title",
+      "text": "Test text"
+    },
+    {
+      "title": "Super heroes",
+      "text": "Iron man",
+      "id": "b0f58cf2-e871-4a43-87bd-c356427d09a5"
+    },
+    {
+      "title": "Lunch Reminder",
+      "text": "Lunch with Dan.",
+      "id": "134012ae-9cc6-4d26-a990-04996e7fdd2f"
+    },
+    {
+      "title": "Email Reminder",
+      "text": "Email John Smith re: Wall painting.",
+      "id": "d52c2033-f910-4986-8219-c4b774e857aa"
+    }
+  ]
 }

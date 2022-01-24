@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3001;
 const fs = require("fs");
 const path = require("path");
 const htmlRoutes = require("./routes/htmlRoutes");
-const apiRoutes = require("./routes/apiRoutes");rreerr
+const apiRoutes = require("./routes/apiRoutes");
 
 // middleware functions
 app.use(express.urlencoded({ extended: true }));
