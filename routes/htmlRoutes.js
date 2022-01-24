@@ -1,7 +1,7 @@
 const path = require('path');
 const router = require('express').Router();
 
-// routes 
+// * will reroute any other input to this page
 router.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'))
 });

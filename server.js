@@ -8,6 +8,8 @@ const path = require("path");
 const htmlRoutes = require("./routes/htmlRoutes");
 const apiRoutes = require("./routes/apiRoutes");
 
+// const { notesData } = require('./db/db.json')
+
 // middleware functions
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());

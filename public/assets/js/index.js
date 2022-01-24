@@ -5,13 +5,16 @@ let newNoteBtn;
 let noteList;
 
 if (window.location.pathname === '/notes') {
+  console.log("triggered");
   noteTitle = document.querySelector('.note-title');
   noteText = document.querySelector('.note-textarea');
+  console.log(noteText);
   saveNoteBtn = document.querySelector('.save-note');
+  console.log(saveNoteBtn);
   newNoteBtn = document.querySelector('.new-note');
   noteList = document.querySelectorAll('.list-container .list-group');
 }
-
+console.log(saveNoteBtn);
 // Show an element
 const show = (elem) => {
   elem.style.display = 'inline';
